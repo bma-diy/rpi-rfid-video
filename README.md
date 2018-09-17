@@ -41,7 +41,9 @@ hdmi_drive=2
 
 * Code execution at start up
 You can have your code execute at runtime by adding it to the /etc/rc.local file
+
 [rc.local - Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/linux/usage/rc-local.md)
 
 * Hide mouse cursor by installing Unclutter
+
 [Hide Raspberry Pi Mouse Cursor in Raspbian (Kiosk)](https://jackbarber.co.uk/blog/2017-02-16-hide-raspberry-pi-mouse-cursor-in-raspbian-kiosk)

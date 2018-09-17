@@ -18,7 +18,7 @@ https://youtu.be/92qb6oVzuHA
 * [RFID (RC522) - piddlerintheroot |  piddlerintheroot](https://www.piddlerintheroot.com/rfid-rc522-raspberry-pi/)
 
 ### The Raspberry Pi 3 has a video player preinstalled called: OMXPlayer
-[OMXPlayer: An accelerated command line media player - Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/raspbian/applications/omxplayer.md)
+* [OMXPlayer: An accelerated command line media player - Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/raspbian/applications/omxplayer.md)
 
 ### Scripts
 * bplay.py - the script that actually scans the card and plays the video
@@ -30,7 +30,8 @@ You will not be able to have multiple scripts using the RFID sensor running at t
 
 ### Extra Info
 
-* Enable HDMI Hotplug
+**Enable HDMI Hotplug**
+
 There may be situations where you power your Raspberry Pi before plugging in the HDMI cable and your screen may remain black. To have your Pi detect HDMI after being powered on, add these two lines to /boot/config.txt and reboot:
 
 ```
@@ -39,11 +40,12 @@ hdmi_drive=2
 ```
 [Video options in config.txt - Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/configuration/config-txt/video.md)
 
-* Code execution at start up
+**Code execution at start up**
+
 You can have your code execute at runtime by adding it to the /etc/rc.local file
 
 [rc.local - Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/linux/usage/rc-local.md)
 
-* Hide mouse cursor by installing Unclutter
+**Hide mouse cursor by installing Unclutter**
 
 [Hide Raspberry Pi Mouse Cursor in Raspbian (Kiosk)](https://jackbarber.co.uk/blog/2017-02-16-hide-raspberry-pi-mouse-cursor-in-raspbian-kiosk)

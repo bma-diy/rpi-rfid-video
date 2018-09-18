@@ -34,6 +34,8 @@ def playmovie(video, aspect = 0):
 		myprocess = subprocess.Popen(['omxplayer',directory + video],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE, close_fds=True)
 	
 	else:
+	#This is for videos that come in 16:9 that should be played as 4:3
+	#if your video file is already in 4:3, you don't need to set this flag.
 		myprocess = subprocess.Popen(['omxplayer','--win','250,0,1650,1050',directory + video],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE, close_fds=True)
 	
 	time.sleep(3)

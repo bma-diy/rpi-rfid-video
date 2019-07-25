@@ -22,6 +22,7 @@ https://youtu.be/92qb6oVzuHA
 
 ### Scripts
 * bplay.py - the script that actually scans the card and plays the video
+* playButtons.py - alternative script using a different library with improved RFID scanning as well as use of buttons.
 * read.py - a simple script to test reading your script
 * write.py - a simple script to write the text portion of the RFID card
 

@@ -9,6 +9,14 @@ import glob
 import RPi.GPIO as GPIO
 from pirc522 import RFID
 
+"""
+This script works really well and integrates the use of GPIO buttons. 
+The problem with the other scripts is that the RFID reader pauses the script until a scan is done.
+This new script uses a different library that allows the script to proceed without waiting for an RFID to be scanned.
+
+sudo pip install pi-rc522
+https://github.com/ondryaso/pi-rc522/blob/master/README.md
+"""
 
 # initialize GPIO buttons
 GPIO.setmode(GPIO.BOARD)

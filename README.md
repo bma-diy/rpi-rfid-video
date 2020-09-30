@@ -21,7 +21,8 @@ https://youtu.be/92qb6oVzuHA
 * [OMXPlayer: An accelerated command line media player - Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/raspbian/applications/omxplayer.md)
 
 ### Scripts
-* bplay.py - the script that actually scans the card and plays the video
+* bplay.py - the script that actually scans the card and plays the video (for Python 2)
+* bplayv3.py - updated version of the script for use with Python 3. Uses [OMXplayer wrapper](https://python-omxplayer-wrapper.readthedocs.io/en/latest/)
 * playButtons.py - alternative script using a different library with improved RFID scanning as well as use of buttons.
 * read.py - a simple script to test reading your script
 * write.py - a simple script to write the text portion of the RFID card
